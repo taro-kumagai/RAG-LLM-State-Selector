@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+# .NET builds
+**/bin/
+**/obj/
+# Generated outputs
+TestResults*.csv
+ModelComparisons*.csv
+behavior_profile_*.json
+game_context_*.json
+# Chroma persistence
+chroma/
